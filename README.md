@@ -5,6 +5,7 @@
 
 |      Equipe      |              Email             |
 | ---------------- | ------------------------------ |
+| :---:       | :---:       |
 | Samuel de Souza  | samueldesouza200512@gmail.com  |
 | Caio de Souza    | caiodesouza.cds@gmail.com      |
 
@@ -13,8 +14,9 @@
 
 |      Item        |        Valor       |
 | ---------------- | ------------------ |
+| :---:       | :---:       |
 | Banco de Dados   | MySQL              |
-| Schema           | Imobiliriaria      |
+| Schema           | Imobiliaria        |
 
 
 Projeto avaliativo de integração de java com banco de dados.
