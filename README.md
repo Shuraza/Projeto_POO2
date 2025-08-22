@@ -24,8 +24,10 @@
 
 <details>
   <summary> Diagramas </summary>
+## Diagrama MER
 <img alt="DiagramaMER" src="https://github.com/Shuraza/Projeto_POO2/blob/main/MER.jpg">
-  ---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+## Diagrama UML
 <img alt="DiagramaUML" src="https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg">
 </details>
 
