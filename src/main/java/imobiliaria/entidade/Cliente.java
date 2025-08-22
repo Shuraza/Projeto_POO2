@@ -10,6 +10,7 @@ public class Cliente {
 
     public Cliente(long id, String nome, String email, int idade, String sexo){
         this.id = id;
+        this.nome = nome;
         this.email = email;
         this.idade = idade;
         this.sexo = sexo;
