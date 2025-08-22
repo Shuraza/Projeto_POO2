@@ -26,7 +26,6 @@
   <summary> Diagramas </summary>
 ## Diagrama MER
 ![DiagramaMER](/MER.jpg)
-----------------------------------------------------------------------------------
 ## Diagrama UML
 ![Diagrama de classe](/diagrama_de_classe.png)
 </details>
