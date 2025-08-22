@@ -86,4 +86,6 @@ USE Imobiliaria;
   ```
 </details>
 
+--------------------------------------------------------------------------------
+
 Projeto avaliativo de integração de java com banco de dados.
