@@ -37,7 +37,7 @@
 ![Diagrama UML](/UML.jpg)
 </details>
 
-
+----------------------------------------------------------------------------------
 
 <details>
   <summary>Instruções SQL</summary>
