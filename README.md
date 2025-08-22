@@ -28,7 +28,7 @@
 ![DiagramaMER](/MER.jpg)
 ----------------------------------------------------------------------------------
 ## Diagrama UML
-![DiagramaUML](/UML.jpg)
+![Diagrama de classe](/diagrama_de_classe.png)
 </details>
 
 Projeto avaliativo de integração de java com banco de dados.
