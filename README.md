@@ -25,10 +25,10 @@
 <details>
   <summary> Diagramas </summary>
 ## Diagrama MER
-<img alt="DiagramaMER" src="https://github.com/Shuraza/Projeto_POO2/blob/main/MER.jpg">
+![DiagramaMER](/MER.jpg)
 ----------------------------------------------------------------------------------
 ## Diagrama UML
-<img alt="DiagramaUML" src="https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg">
+![DiagramaUML](/UML.jpg)
 </details>
 
 Projeto avaliativo de integração de java com banco de dados.
