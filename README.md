@@ -28,5 +28,6 @@
   ---------------------------------------------------------------------------------
 ![DiagramaUML](https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg)
 </details>
+![DiagramaUML](https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg)
 
 Projeto avaliativo de integração de java com banco de dados.
