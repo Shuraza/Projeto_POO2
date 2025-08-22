@@ -2,17 +2,20 @@
 --------------------------------------------------------------------------------
 <details>
 <summary> Equipe </summary>
+  
 ## Alunos
 |      Equipe      |              Email             |
 | :---:       | :---:       |
 | Samuel de Souza  | samueldesouza200512@gmail.com  |
 | Caio de Souza    | caiodesouza.cds@gmail.com      |
+
 </details>
 
 --------------------------------------------------------------------------------
   
 <details>
 <summary> Detalhes </summary>
+  
 ## Equipe
 |      Item        |        Valor       |
 | :---:       | :---:       |
