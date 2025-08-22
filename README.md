@@ -24,10 +24,9 @@
 
 <details>
   <summary> Diagramas </summary>
-![DiagramaMER](https://github.com/Shuraza/Projeto_POO2/blob/main/MER.jpg)
+<img alt="DiagramaMER" src="https://github.com/Shuraza/Projeto_POO2/blob/main/MER.jpg">
   ---------------------------------------------------------------------------------
-![DiagramaUML](https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg)
+<img alt="DiagramaUML" src="https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg">
 </details>
-![DiagramaUML](https://github.com/Shuraza/Projeto_POO2/blob/main/UML.jpg)
 
 Projeto avaliativo de integração de java com banco de dados.
