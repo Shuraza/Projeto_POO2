@@ -29,12 +29,12 @@
   <summary> Diagramas </summary>
   
 ## Diagrama MER
-![Diagrama MER](/MER.jpg)
+![Diagrama MER](/MER2.jpg)
 
 ----------------------------------------------------------------------------------
 
 ## Diagrama UML
-![Diagrama UML](/UML2.jpg)
+![Diagrama UML](/UML3.jpg)
 </details>
 
 ----------------------------------------------------------------------------------
@@ -77,7 +77,6 @@ USE Imobiliaria;
  FOREIGN KEY (IDCliente) REFERENCES Cliente(IDCliente),
  FOREIGN KEY (IDImovel) REFERENCES Imovel(IDImovel),
  Valor FLOAT,
- Ativo BOOL,
  DataInicio DATE,
  DataFinal DATE
  );
