@@ -19,7 +19,9 @@ public class ImovelDAO extends BaseDAO {
         try (
                 Connection conn = con();
                 PreparedStatement comando = conn.prepareStatement(query);
+
         ){
+
 
             comando.setString(1, tipo);
             comando.setDouble(2, tamanho);
@@ -45,7 +47,9 @@ public class ImovelDAO extends BaseDAO {
         try (
                 Connection conn = con();
                 PreparedStatement comando = conn.prepareStatement(query);
+
         ){
+
 
             ResultSet consultaFeita = comando.executeQuery();
 
