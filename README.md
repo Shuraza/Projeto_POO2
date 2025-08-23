@@ -29,12 +29,12 @@
   <summary> Diagramas </summary>
   
 ## Diagrama MER
-![Diagrama MER](/MER2.png)
+![Diagrama MER](/MER3.jpg)
 
 ----------------------------------------------------------------------------------
 
 ## Diagrama UML
-![Diagrama UML](/UML3.png)
+![Diagrama UML](/UML4.jpg)
 </details>
 
 ----------------------------------------------------------------------------------
