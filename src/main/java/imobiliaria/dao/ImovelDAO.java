@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ImovelDAO extends BaseDAO {
 
-    public void cadastrarImovel(String tipo, float tamanho, String endereco){
+    public void cadastrarImovel(String tipo, double tamanho, String endereco){
 
         String query = "INSERT INTO imovel (Tipo, Tamanho, Endereco) VALUES (?, ?, ?)";
 
@@ -22,10 +22,12 @@ public class ImovelDAO extends BaseDAO {
                 ){
 
             comando.setString(1, tipo);
-            comando.setFloat(2, tamanho);
+            comando.setDouble(2, tamanho);
             comando.setString(3, endereco);
 
             comando.execute();
+
+            System.out.println("Cadastro realizado com sucesso!\n");
 
         } catch (Exception e) {
             System.out.println("Erro: " + e);
@@ -51,7 +53,7 @@ public class ImovelDAO extends BaseDAO {
 
                 long id = consultaFeita.getLong("IDImovel");
                 String tipo = consultaFeita.getString("Tipo");
-                float tamanho = consultaFeita.getFloat("Tamanho");
+                double tamanho = consultaFeita.getDouble("Tamanho");
                 String endereco = consultaFeita.getString("Endereco");
 
                 Imovel imovel = new Imovel(id, tipo, tamanho, endereco);

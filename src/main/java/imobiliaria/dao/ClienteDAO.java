@@ -27,6 +27,8 @@ public class ClienteDAO extends BaseDAO {
 
             pre.execute();
 
+            System.out.println("Cadastro realizado com sucesso!\n");
+
         } catch (Exception e) {
             System.out.println("Erro: " + e);
         }
