@@ -1,6 +1,8 @@
 package imobiliaria.entidade;
 
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class ContratoAluguel {
 
@@ -9,10 +11,10 @@ public class ContratoAluguel {
     private long clienteId;
     private float valor;
     private boolean ativo;
-    private LocalDateTime dataInicio;
-    private LocalDateTime dataFinal;
+    private Timestamp dataInicio;
+    private Timestamp dataFinal;
 
-    public ContratoAluguel(long id, long imovelId, long clienteId, float valor, boolean ativo, LocalDateTime dataInicio, LocalDateTime dataFinal) {
+    public ContratoAluguel(long id, long imovelId, long clienteId, float valor, boolean ativo, Timestamp dataInicio, Timestamp dataFinal) {
         this.id = id;
         this.imovelId = imovelId;
         this.clienteId = clienteId;
@@ -64,19 +66,19 @@ public class ContratoAluguel {
         this.ativo = ativo;
     }
 
-    public LocalDateTime getDataInicio() {
+    public Timestamp getDataInicio() {
         return dataInicio;
     }
 
-    public void setDataInicio(LocalDateTime dataInicio) {
+    public void setDataInicio(Timestamp dataInicio) {
         this.dataInicio = dataInicio;
     }
 
-    public LocalDateTime getDataFinal() {
+    public Timestamp getDataFinal() {
         return dataFinal;
     }
 
-    public void setDataFinal(LocalDateTime dataFinal) {
+    public void setDataFinal(Timestamp dataFinal) {
         this.dataFinal = dataFinal;
     }
 }

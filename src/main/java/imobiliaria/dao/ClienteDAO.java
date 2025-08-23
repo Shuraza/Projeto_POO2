@@ -49,7 +49,7 @@ public class ClienteDAO extends BaseDAO {
 
             while (consultaFeita.next()){
 
-                int id = consultaFeita.getInt("IDCliente");
+                long id = consultaFeita.getLong("IDCliente");
                 String nome = consultaFeita.getString("Nome");
                 String email = consultaFeita.getString("Email");
                 int idade = consultaFeita.getInt("Idade");
