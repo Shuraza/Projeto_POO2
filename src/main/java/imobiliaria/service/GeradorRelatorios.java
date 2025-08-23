@@ -47,7 +47,8 @@ public class GeradorRelatorios {
             for (ContratoAluguel contrato : todosContratos){
 
 
-               if(imovel.getId() == contrato.getImovelId()) {
+
+                if(imovel.getId() == contrato.getImovelId()) {
 
 
                     if(contrato.isAtivo()){

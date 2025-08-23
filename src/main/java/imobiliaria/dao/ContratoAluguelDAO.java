@@ -17,7 +17,9 @@ public class ContratoAluguelDAO extends BaseDAO {
         try (
                 Connection conn = con();
                 PreparedStatement pre = conn.prepareStatement(query);
-                ){
+
+        ){
+
 
             pre.setLong(1,clienteId);
             pre.setLong(2, imovelId);
