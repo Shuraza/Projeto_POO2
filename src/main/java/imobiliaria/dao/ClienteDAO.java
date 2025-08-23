@@ -27,6 +27,8 @@ public class ClienteDAO extends BaseDAO {
 
             pre.execute();
 
+            System.out.println("Cadastro realizado com sucesso!\n");
+
         } catch (Exception e) {
             System.out.println("Erro: " + e);
         }
@@ -49,7 +51,7 @@ public class ClienteDAO extends BaseDAO {
 
             while (consultaFeita.next()){
 
-                int id = consultaFeita.getInt("IDCliente");
+                long id = consultaFeita.getLong("IDCliente");
                 String nome = consultaFeita.getString("Nome");
                 String email = consultaFeita.getString("Email");
                 int idade = consultaFeita.getInt("Idade");

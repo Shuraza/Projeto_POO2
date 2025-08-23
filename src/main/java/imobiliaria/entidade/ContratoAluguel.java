@@ -1,28 +1,37 @@
 package imobiliaria.entidade;
 
+
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class ContratoAluguel {
 
     private long id;
     private long imovelId;
     private long clienteId;
-    private float valor;
+    private double valor;
     private boolean ativo;
-    private LocalDateTime dataInicio;
-    private LocalDateTime dataFinal;
+    private LocalDate dataInicio;
+    private LocalDate dataFinal;
 
-    public ContratoAluguel(long id, long imovelId, long clienteId, float valor, boolean ativo, LocalDateTime dataInicio, LocalDateTime dataFinal) {
+    public ContratoAluguel(long id, long imovelId, long clienteId, double valor, boolean ativo, LocalDate dataInicio, LocalDate dataFinal) {
         this.id = id;
         this.imovelId = imovelId;
         this.clienteId = clienteId;
-        this.valor = valor;
         this.ativo = ativo;
+        this.valor = valor;
         this.dataInicio = dataInicio;
         this.dataFinal = dataFinal;
     }
 
+    public boolean isAtivo() {
+        return ativo;
+    }
 
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
+    }
 
     public long getId() {
         return id;
@@ -48,35 +57,28 @@ public class ContratoAluguel {
         this.clienteId = clienteId;
     }
 
-    public float getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(float valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 
-    public boolean isAtivo() {
-        return ativo;
-    }
 
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
-    }
-
-    public LocalDateTime getDataInicio() {
+    public LocalDate getDataInicio() {
         return dataInicio;
     }
 
-    public void setDataInicio(LocalDateTime dataInicio) {
+    public void setDataInicio(LocalDate dataInicio) {
         this.dataInicio = dataInicio;
     }
 
-    public LocalDateTime getDataFinal() {
+    public LocalDate getDataFinal() {
         return dataFinal;
     }
 
-    public void setDataFinal(LocalDateTime dataFinal) {
+    public void setDataFinal(LocalDate dataFinal) {
         this.dataFinal = dataFinal;
     }
 }

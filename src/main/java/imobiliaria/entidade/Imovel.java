@@ -4,10 +4,10 @@ public class Imovel {
 
     private long id;
     private String tipo;
-    private float tamanho;
+    private double tamanho;
     private String endereco;
 
-    public Imovel(long id, String tipo, float tamanho, String endereco){
+    public Imovel(long id, String tipo, double tamanho, String endereco){
         this.id = id;
         this.tipo = tipo;
         this.tamanho = tamanho;
@@ -18,7 +18,7 @@ public class Imovel {
         return id;
     }
 
-    public float getTamanho() {
+    public double getTamanho() {
         return tamanho;
     }
 
@@ -38,7 +38,7 @@ public class Imovel {
         this.endereco = endereco;
     }
 
-    public void setTamanho(float tamanho) {
+    public void setTamanho(double tamanho) {
         this.tamanho = tamanho;
     }
 
